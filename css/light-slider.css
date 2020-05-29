@@ -1,0 +1,37 @@
+.light_slider {
+    display: flex;
+    position: relative;
+}
+.light_slider .sliders_window{
+    overflow: hidden;
+}
+.light_slider .sliders_wrapper {
+    display: flex;
+    transition: 0.5s;
+}
+.light_slider .one_slide img {
+    width: 100%;
+}
+
+.light_slider .nav_block {
+    position: absolute;
+    bottom: -40px;
+}
+.light_slider .nav_block .btn {
+    cursor: pointer;
+}
+.btn_prev , .btn_next {
+border: 0;   
+cursor: pointer;
+bottom: 40px;
+background-color: transparent;
+}
+.btn_prev {
+    padding-right: 120px;
+}
+.btn_next {
+    padding-left: 120px;
+}
+.btn_prev , .btn_next:focus {
+    outline: -webkit-focus-ring-color auto 0px;
+}
