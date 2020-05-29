@@ -1,5 +1,6 @@
 .light_slider {
     display: flex;
+    justify-content: center;
     position: relative;
 }
 .light_slider .sliders_window{
@@ -12,26 +13,37 @@
 .light_slider .one_slide img {
     width: 100%;
 }
-
 .light_slider .nav_block {
     position: absolute;
+    display: flex;
+    justify-content: center;
     bottom: -40px;
 }
-.light_slider .nav_block .btn {
+.btn_prev, .btn_next {
+    border: 0;   
     cursor: pointer;
-}
-.btn_prev , .btn_next {
-border: 0;   
-cursor: pointer;
-bottom: 40px;
-background-color: transparent;
-}
-.btn_prev {
-    padding-right: 120px;
-}
-.btn_next {
-    padding-left: 120px;
+    background-color: transparent;
+    font-size: larger;
 }
 .btn_prev , .btn_next:focus {
     outline: -webkit-focus-ring-color auto 0px;
+}
+.dotsDiv{
+    display: flex;
+    justify-content: center;
+}
+
+.dot{
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    background-color: rgb(200, 211, 238);
+    margin-left: 5px;
+}
+
+.active{
+    background-color: rgb(175, 174, 174);
+}
+.dot {
+    cursor: pointer;
 }

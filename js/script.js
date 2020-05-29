@@ -1,2 +1,9 @@
 let mainSlider = document.querySelector('.main_slider');
-mainSlider.lightSlider();
+mainSlider.lightSlider({
+    slides: 2,
+    slidesWidth: 500,
+    slidesHeight: 300,
+    nav: true,
+    autoplay: false,
+    autoplaySpeed: 2000,
+});
