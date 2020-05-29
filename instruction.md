@@ -2,12 +2,12 @@
 
 * Настройте свою HTML-разметку.
 ><div class="main_slider">
->><div><img src="./img/2560x1600_1015246_[www.ArtFile.ru].jpg" alt="cat1"></div>
->><div><img src="" alt=""></div>
+>><div><img ...></div>
+>><div><img ...></div>
 
->><div><img src="" alt=""></div>
+>><div><img ...></div>
 
->><div><img src="" alt=""></div>
+>><div><img ...></div>
 
 ></div>
 ***
