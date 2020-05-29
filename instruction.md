@@ -18,6 +18,7 @@ link rel="stylesheet" href="./css/light-slider.css">
 ```
 ***
 * Подключите light-slider.js в конец `<body>`
+
 ```<script src="./js/light-slider.js"></script>```
 ***
 * Поздравляю! Вы подключили слайдер, приступаем к настройкам.
