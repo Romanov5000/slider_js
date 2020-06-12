@@ -1,3 +1,6 @@
+Кликни для просмотра.
+https://romanov5000.github.io/slider_js/
+
 # Инструкция по установке Light slider #
 
 * Настройте свою HTML-разметку.
