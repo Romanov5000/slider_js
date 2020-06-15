@@ -1,6 +1,10 @@
 body {
     margin: 0;
-    background-color: honeydew;
+    /*background-color: honeydew;*/
+    background-image: url(/img/fon.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: whitesmoke;
 }
 
 .container {
